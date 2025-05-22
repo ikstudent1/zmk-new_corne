@@ -50,6 +50,40 @@
         tap-ms = <100>;
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        gt {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <8 9>;
+        };
+
+        lt {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <3 4>;
+        };
+
+        dash {
+            bindings = <&kp MINUS>;
+            key-positions = <16 17>;
+        };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <31 32>;
+        };
+
+        under {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <23 24>;
+        };
+
+        equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <37 38>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -62,9 +96,7 @@
                          &kp LGUI  &mo 1  &lt 3 SPACE                                               &lt 3 ENTER  &mo 2  &kp RALT
             >;
 
-             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
-
-           
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         lower_layer {
