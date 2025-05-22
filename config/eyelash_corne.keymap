@@ -129,7 +129,7 @@
             key-positions = <1 0>;
         };
 
-        layer_3 {
+        layer_3_right {
             bindings = <&mo 3>;
             key-positions = <45 46>;
         };
