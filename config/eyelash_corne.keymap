@@ -82,6 +82,41 @@
             bindings = <&kp EQUAL>;
             key-positions = <37 38>;
         };
+
+        l_bracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <3 2>;
+        };
+
+        r_bracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <9 10>;
+        };
+
+        l_brace {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <16 15>;
+        };
+
+        r_brace {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <24 25>;
+        };
+
+        l_parenthesis {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <30 31>;
+        };
+
+        r_parenthesis {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <39 38>;
+        };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <1 0>;
+        };
     };
 
     keymap {
