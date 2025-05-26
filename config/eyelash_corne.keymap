@@ -159,7 +159,7 @@
             display-name = "NUMBER";
             bindings = <
 &trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F12                                &mmv MOVE_UP                     &kp PAGE_UP    &none     &kp UP_ARROW  &none      &kp HOME  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp PAGE_DOWN  &kp DOWN  &kp DOWN      &kp RIGHT  &kp END   &trans
+&trans  &trans  &trans  &trans  &trans  &trans                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp PAGE_DOWN  &kp LEFT  &kp DOWN      &kp RIGHT  &kp END   &trans
 &trans  &trans  &trans  &trans  &trans  &trans   &kp C_MUTE                    &mmv MOVE_DOWN                   &trans         &trans    &trans        &trans     &trans    &trans
                         &trans  &trans  &trans                                                                  &trans         &trans    &trans
             >;
