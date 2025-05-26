@@ -145,7 +145,7 @@
         };
 
         lan {
-            bindings = <&kp F14>;
+            bindings = <&kp F10>;
             key-positions = <3 9>;
         };
     };
@@ -159,7 +159,7 @@
 &kp GRAVE  &kp Q                   &kp W              &kp E                 &kp R             &kp T                             &kp UP                &kp Y      &kp U             &kp I             &kp O              &kp P                            &kp NON_US_BACKSLASH
 &kp TAB    &hold_tap LEFT_SHIFT A  &hold_tap LCTRL S  &hold_tap LEFT_ALT D  &hold_tap LGUI F  &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &hold_tap RGUI J  &hold_tap RALT K  &hold_tap RCTRL L  &hold_tap RIGHT_SHIFT SEMICOLON  &kp SQT
 &kp LSHFT  &kp Z                   &kp X              &kp C                 &kp V             &kp B      &kp SPACE              &kp DOWN              &kp N      &kp M             &kp COMMA         &kp DOT            &kp FSLH                         &kp RSHFT
-                                                      &kp F14               &mo 2             &kp SPACE                                               &kp ENTER  &mo 1             &kp BACKSPACE
+                                                      &kp F10               &mo 2             &kp SPACE                                               &kp ENTER  &mo 1             &kp BACKSPACE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
