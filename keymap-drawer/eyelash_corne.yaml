@@ -43,7 +43,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - F14
+  - F10
   - SYMBOL
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -279,4 +279,4 @@ combos:
 - p: [4, 8]
   k: $$mdi:alpha-w-box$$
 - p: [3, 9]
-  k: F14
+  k: F10
